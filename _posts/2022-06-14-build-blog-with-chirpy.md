@@ -118,7 +118,7 @@ To to write an article you just have to create a file in the `_posts` folder, bu
 * It must have an extension in .md
 
 so for this position the file name is this: `2022-06-14-build-blog-with-chirpy.md`     
-if you are not familiar with markdown it is [very easy](https://www.markdownguide.org/cheat-sheet/), the markdown code of this article is [here](https://raw.githubusercontent.com/h44ck3r/docx/main/_posts/2022-06-14-buid-blog-with-chirpy.md).
+if you are not familiar with markdown it is [very easy](https://www.markdownguide.org/cheat-sheet/), the markdown code of this article is [here](https://raw.githubusercontent.com/h44ck3r/h44ck3r.github.io/main/_posts/2022-06-14-build-blog-with-chirpy.md).
 
 
 ### Header
