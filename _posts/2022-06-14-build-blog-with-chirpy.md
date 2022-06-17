@@ -197,7 +197,47 @@ And Voila, you have your blog.
 
 ## **Hosting**
 ---
-the next step is to host the site either on github or [locally](https://article-to-local), personally I will host it locally and on github for free as a backup so if locally the site is down the visitors will be directed on Github.
+The next step is to host the site either on github or [locally](https://article-to-local), personally I will host it locally and on github for free as a backup so if locally the site is down the visitors will be directed on Github.
 
-### Github host
-Since hosting the site on github is the easiest thing to do we will do it right away.
+Since hosting on github is the easiest thing to do we will do it right away.      
+The author has already done almost everything for us in the `.github` folder we can see that there is a `pages-deploy.yml` file this configuration file configures an ubuntu, installs the dependencies and 'compiles' our site in puroduction mode and all this in a totally automatic way.    
+We just need to make a push on github and the magic happens.    
+But before the magic happens we need to do some initial actions. 
+
+### URL
+First we have to change the name of the project to something like `<GHusername>.gihub.io` it is possible to give another name to your project but the project will be considered as a folder of the main page. so the url will look like this `<GHusername>.gihub.io/<repo name>` it's a matter of preference.     
+
+For my part I prefer to have a 'folder' so I won't do this step and if you are like me you can go directly to the next step.
+
+If you want to have a direct URL you have to change the name of your repo.    
+You have to go to settings > General > Repository name and change the name to look like this: `<GHusername>.gihub.io` remember to click on the 'Rename' button.
+
+![change the name of the repo](Rename-repo.png){: .normal}        
+_change the name of the repo_
+
+### Publishing branch 
+Secondly we need to choose the source of the site, to choose this we go to settings > pages > Source and in the branches make sure you choose gh-pages you can save and everything is good.
+
+![choose the publication branch](source.png){: .normal}       
+_choose the publication branch_
+
+> Here you will also have the Github URL of your blog.
+{: .prompt-tip }
+
+that's all we have to do now the secript will do everything for us.
+Here you will also have the Github URL of your blog.
+
+### git commands
+Now you just have to sync the local changes with github.
+
+> You can do a `JEKYLL_ENV=production bundle exec jekyll b` before doing the push so the production version of our blog will also be backed up on github.
+{: .prompt-tip }
+
+```bash
+git add .
+git commit -m '<a comment that describes this commit>'
+git push
+```
+Once the push command is placed you will see in the action tab, Github-actions bot build your page. once it is finished, you will see the blog online.
+
+Et voilà your blog is online.
