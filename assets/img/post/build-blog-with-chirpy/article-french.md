@@ -34,4 +34,7 @@ git push
 ```
 une fois que la commande push est passé vous verrez dans l'onglet action, Github-actions bot construire votre page., une fois qu'il a fini, vous verrez le blog en ligne.
 
-et voilà votre site est en ligne.
+et voilà votre site est en ligne.              
+
+
+
