@@ -195,6 +195,9 @@ Just copy the content of this folder and copy it to the appropriate folder on ou
 And Voila, you have your blog.
 
 
-## **conclusion**
+## **Hosting**
 ---
-the next step is to host the site either on [github](https://article-to-github) or [locally](https://article-to-local), personally I will host it locally and on github for free as a backup so if locally the site is down the visitors will be directed on Github.
+the next step is to host the site either on github or [locally](https://article-to-local), personally I will host it locally and on github for free as a backup so if locally the site is down the visitors will be directed on Github.
+
+### Github host
+Since hosting the site on github is the easiest thing to do we will do it right away.
