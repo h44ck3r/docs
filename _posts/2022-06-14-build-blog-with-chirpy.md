@@ -147,7 +147,7 @@ For more neat syntax for the Chirpy theme check their [demo page](https://chirpy
 
 ## **Jekyll Commands**
 ---
-for it is possible to have an overview of the changes you have made before putting the site into production.
+It is possible to have an overview of the changes you have made before putting the site into production.
 
 ```bash
 cd path/to/cloned/repo
@@ -240,4 +240,4 @@ git push
 ```
 Once the push command is placed you will see in the action tab, Github-actions bot build your page. once it is finished, you will see the blog online.
 
-Et voilà your blog is online.
+Et voilà your blog is online.<>
