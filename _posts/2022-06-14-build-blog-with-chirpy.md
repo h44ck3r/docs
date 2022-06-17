@@ -205,9 +205,7 @@ We just need to make a push on github and the magic happens.
 But before the magic happens we need to do some initial actions. 
 
 ### URL
-First we have to change the name of the project to something like `<GHusername>.gihub.io` it is possible to give another name to your project but the project will be considered as a folder of the main page. so the url will look like this `<GHusername>.gihub.io/<repo name>` it's a matter of preference.     
-
-For my part I prefer to have a 'folder' so I won't do this step and if you are like me you can go directly to the next step.
+First we have to change the name of the project to something like `<GHusername>.gihub.io`
 
 If you want to have a direct URL you have to change the name of your repo.    
 You have to go to settings > General > Repository name and change the name to look like this: `<GHusername>.gihub.io` remember to click on the 'Rename' button.
