@@ -1,7 +1,7 @@
 ---
 title: Build a blog with Jekyll and Chirpy.
 date: 2022-06-14 20:00
-categories: [homelab, web site]
+categories: [web site]
 tags: [chirpy, jekyll, blog, softwere]     # TAG names should always be lowercase
 author: hari
 img_path: /assets/img/post/build-blog-with-chirpy
