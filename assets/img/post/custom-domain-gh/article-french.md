@@ -17,19 +17,14 @@ Pour ma part j'ai des nom de domaien chez OVH et Chez Ionos ce sont deux heberge
 
 ## GitHub hebergemet
 ---
-Avec Git-hub vous avez trois choix d'hebergement soit repo dans ce cas la l'URL du projet deverais resembler a ceci `<gh username.github.io/<repo name>`.    
-ou soit un seul enregistrement qui serais relier a votre nom d'utilisateur, on fait ce choix lorsqu'on est sur que nous auras pas a heberger d'autre projet.      
-ou alors vous combinez les deux; un repo principal sur `<gh username.github.io` et un autre projet sur `<gh username.github.io/<repo name>`.
+Avec Git-hub vous avez deux choix d'hebergement soit repo dans ce cas la l'URL du projet deverais resembler a ceci `<gh username.github.io/<repo name>`.    
+ou soit un seul enregistrement qui serais relier a votre nom d'utilisateur.
 
-Il vous faut savoir dans quelle situation vous etes.   
-> il est toujours possible de faire changer vos choix d'hebergement sur github.
-{: .prompt-info }
+Dans les deux cas il vous faut un sous domaine par page hebergé.
+
 
 ## Entregistrement DNS
 ---
-Il n'est pas possible de configuer des site en sous dossier sur github.     
-> Si vous souhaitez un Url unique pout votre site projet je vous conseille de créer un sous domaine pour le projet.
-{: prompt-tip}
 
 Pour ma part j'ai le nom de domaine `jeyakrishnan.fr` chez OVH donc c"est avec leur interface que je vous montre le process mais il deverais etre quasient le meme pour tout les hebergeur juste des visuel différents.
 
@@ -53,4 +48,8 @@ _World Wide Web sub domaine for our subdomaine._
 {: .prompt-info }
 ## condifiguration github
 ---
-Maintenant que nous avons notre enregistrement DNS en attendant qu'il se propage partout nous pouvons finir la configuration sur Github
+Maintenant que nous avons notre enregistrement DNS en attendant qu'il se propage partout nous pouvons finir la configuration sur Github.
+
+![configuration de l'URL sur github](gh-page.png){: .normal}
+_configuration de l'URL sur github._
+
