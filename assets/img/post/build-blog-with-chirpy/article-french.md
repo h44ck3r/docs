@@ -3,8 +3,7 @@ Premierement nous devons changer le nom du projet pour que quelque chose comme c
 Pour ma part je prefere avoir un 'dossier' donc je ne vais pas faire cette etape et si vous etes comme moi vous pouvez directement passer a la suite.
 
 Si vous voulez avoir un URL directe il faut changer le nom de votre repo.    
-Il faut aller dans settings > General > Repository name vous changer le nom pour que ca resemble a ca : `<GHusername>.gihub.io` pensez a cliquer sur le bouton 'Rename'.
-
+docx
 ![changer le nom du projet](Rename-repo.png){: .normal}        
 _changer le nom du projet_
 
