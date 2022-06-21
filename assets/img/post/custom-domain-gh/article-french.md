@@ -53,3 +53,4 @@ Maintenant que nous avons notre enregistrement DNS en attendant qu'il se propage
 ![configuration de l'URL sur github](gh-page.png){: .normal}
 _configuration de l'URL sur github._
 
+une fois que vous avez 
